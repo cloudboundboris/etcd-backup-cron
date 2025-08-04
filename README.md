@@ -7,7 +7,7 @@ fstab entry:
 ```bash
 s3fs#<bucket name> /mnt/wasabi fuse _netdev,passwd_file=/root/.passwd-s3fs,url=https://s3.us-west-1.wasabisys.com,use_path_request_style,nonempty,allow_other 0 0
 ```
-password is a key:value pair geenrated inside your s3 storage provider. 
+password is a key:value pair generated in your s3 storage provider. 
 
 ## Wasabi Entrypoints:
 
